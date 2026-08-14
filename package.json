@@ -1,0 +1,16 @@
+{
+  "name": "taskflow-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskFlow API — plain Node.js http server + built-in SQLite.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --experimental-sqlite --watch src/index.js",
+    "start": "node --experimental-sqlite src/index.js",
+    "seed": "node --experimental-sqlite src/seed.js",
+    "test": "node --experimental-sqlite --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

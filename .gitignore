@@ -1,7 +1,1 @@
-node_modules/
-dist/
-server/data/*.db
-server/data/*.db-journal
-.env
-*.log
-.DS_Store
+.vercel
